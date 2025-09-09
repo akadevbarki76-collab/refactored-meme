@@ -27,7 +27,7 @@ strenum = {version = "^0.4.9", python = "<3.11"}
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 pre-commit = "^4.2.0"
-pytest-cov = "^6.2.1"
+pytest-cov = ">=6.2.1,<8.0.0"
 pytest-depends = "^1.0.1"
 pytest-asyncio = "^1.0.0"
 unasync-cli = { git = "https://github.com/supabase-community/unasync-cli.git", branch = "main" }
