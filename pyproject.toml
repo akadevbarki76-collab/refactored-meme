@@ -31,7 +31,7 @@ pytest-cov = "^6.2.1"
 pytest-depends = "^1.0.1"
 pytest-asyncio = "^1.0.0"
 unasync-cli = { git = "https://github.com/supabase-community/unasync-cli.git", branch = "main" }
-ruff = "^0.12.1"
+ruff = ">=0.12.1,<0.14.0"
 
 [tool.poetry.group.docs]
 optional = true
